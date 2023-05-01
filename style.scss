@@ -1,14 +1,34 @@
 @import 'reset.scss';
 
-body{
+
+body {
     background-color: #CCCCCC;
 
-    h1{
+    h1 {
         text-align: center;
         color: #FEFEFE;
         font-size: 5em;
         font-weight: bolder;
-        font-family: Georgia, 'Times New Roman', Times, serif;   
-        margin: 50px 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 20px 0px;
+    }
+
+    #mySection {
+        width: 80%;
+        margin: auto;
+
+        section {
+            width: 95%;
+            margin: auto;
+            text-align: center;
+
+            img{
+                width: 15%;
+                height: 150px;
+                margin: auto;
+                margin: 5px;
+                border: 1px solid black;
+            }
+        }
     }
 }
